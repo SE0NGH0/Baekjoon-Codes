@@ -7,11 +7,11 @@ int solution(int a, int b, bool flag) {
     
     if (flag == true)
     {
-        return (a + b);
+        answer = a + b;
     }
     else if (flag == false)
     {
-        return (a - b);
+        answer = a - b;
     }
     
     return answer;
